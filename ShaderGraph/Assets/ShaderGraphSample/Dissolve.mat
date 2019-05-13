@@ -29,5 +29,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 0}
     - _DissolveColor: {r: 3.4698694, g: 0.8418026, b: 0.12319063, a: 0}
-    - _EndPos: {r: -0.5, g: 0, b: 0, a: 0}
-    - _StartPos: {r: 0.5, g: 0, b: 0, a: 0}
+    - _EndPos: {r: -0.3, g: 0, b: 0, a: 0}
+    - _StartPos: {r: 0.3, g: 0, b: 0, a: 0}
