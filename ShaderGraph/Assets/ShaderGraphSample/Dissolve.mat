@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Dissolve
   m_Shader: {fileID: 4800000, guid: f5b5f7eba6f6e364b9d7e6a6fe6b4bf9, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _LOOP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,14 +20,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7b82d12aad56cc445b99fd1cf06a232d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _DissolveAmount: 0
-    - _DissolveWidth: 0.01
+    - _DissolveWidth: 0.035
+    - _Loop: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _DissolveColor: {r: 3.4698694, g: 0.8418026, b: 0.12319063, a: 0}
-    - _EndPos: {r: -0.5, g: 0, b: 0, a: 0}
-    - _StartPos: {r: 0.5, g: 0, b: 0, a: 0}
+    - _EndPos: {r: -0.6, g: 0, b: 0, a: 0}
+    - _StartPos: {r: 0.6, g: 0, b: 0, a: 0}

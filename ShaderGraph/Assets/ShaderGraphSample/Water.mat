@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fresnel
-  m_Shader: {fileID: 4800000, guid: c07cf0d32fd0f5442b5c1beaef6224b4, type: 3}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 23edb26e40589454b9717ef54850e210, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,19 +19,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b3f247b26e080ca468f1daa963c192ee, type: 3}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 42042cd9d46a8624e87d50dbdddf091a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MetalicOcclusionSmoothness:
-        m_Texture: {fileID: 2800000, guid: 3017ed6fed9d3bb49ba99bf738e2d626, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 06969fc081d8cc146af6634f75abe652, type: 3}
+    - _NormalLayer2:
+        m_Texture: {fileID: 2800000, guid: 42042cd9d46a8624e87d50dbdddf091a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FresnelPower: 2.66
+    - _Smoothness: 0.82
     m_Colors:
-    - _FresnelColor: {r: 0.24933788, g: 0.4882867, b: 0.4960785, a: 0}
+    - _Specular: {r: 2.469216, g: 2.469216, b: 2.469216, a: 0}
