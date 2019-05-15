@@ -28,6 +28,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Smoothness: 0.82
+    - _Smoothness: 0.78
     m_Colors:
-    - _Specular: {r: 2.469216, g: 2.469216, b: 2.469216, a: 0}
+    - _Specular: {r: 0.2627451, g: 0.4490196, b: 0.5, a: 0}
