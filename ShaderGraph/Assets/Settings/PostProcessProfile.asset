@@ -16,6 +16,33 @@ MonoBehaviour:
   - {fileID: 114375464177707528}
   - {fileID: 114252324386167986}
   - {fileID: 114519825960210478}
+  - {fileID: 114143771123547316}
+--- !u!114 &114143771123547316
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca29277fd6639341bc90564822e275c, type: 3}
+  m_Name: RadialBlurPP
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  m_RadialBlurShader: {fileID: 0}
+  m_Center:
+    overrideState: 1
+    value: {x: 0.53, y: 0.59}
+  m_Dist:
+    overrideState: 1
+    value: 0.55
+  m_Strength:
+    overrideState: 1
+    value: 1.8
 --- !u!114 &114252324386167986
 MonoBehaviour:
   m_ObjectHideFlags: 3

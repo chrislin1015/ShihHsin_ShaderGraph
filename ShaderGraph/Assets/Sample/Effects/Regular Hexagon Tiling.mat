@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RadialBlur
-  m_Shader: {fileID: 4800000, guid: 6a5b9308f1071c043b4ca447c2ac3083, type: 3}
+  m_Name: Regular Hexagon Tiling
+  m_Shader: {fileID: 4800000, guid: d9ef7d5ce2e13448c86f3dc51c784d9a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,5 +19,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - Vector1_667B6DBD: 0.05
+    m_Colors:
+    - Vector2_87004923: {r: 0.5, g: 0.5, b: 0, a: 0}
