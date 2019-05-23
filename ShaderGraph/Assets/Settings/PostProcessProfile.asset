@@ -29,11 +29,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ca29277fd6639341bc90564822e275c, type: 3}
   m_Name: RadialBlurPP
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
-  m_RadialBlurShader: {fileID: 0}
   m_Center:
     overrideState: 1
     value: {x: 0.53, y: 0.59}

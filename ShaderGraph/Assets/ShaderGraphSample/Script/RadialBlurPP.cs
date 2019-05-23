@@ -19,9 +19,14 @@ public class RadialBlurPP : PostProcessEffectSettings
 
 public sealed class RadialBlurPPRenderer : PostProcessEffectRenderer<RadialBlurPP>
 {
+    Shader m_MyShader = Shader.Find("Chris/RadialBlur");
+
     public override void Render(PostProcessRenderContext iContext)
     {
-        var _Sheet = iContext.propertySheets.Get(Shader.Find("Chris/RadialBlur2"));
+        if (m_MyShader == null)
+            return;
+
+        var _Sheet = iContext.propertySheets.Get(m_MyShader);//Shader.Find("Chris/RadialBlur"));
         _Sheet.properties.SetVector("_Center", new Vector4(settings.m_Center.value.x, settings.m_Center.value.y, 0.0f, 0.0f));
         _Sheet.properties.SetFloat("_SampleDist", settings.m_Dist);
         _Sheet.properties.SetFloat("_SampleStrength", settings.m_Strength);
